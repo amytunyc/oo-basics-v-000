@@ -27,11 +27,20 @@ class Shoe
     @size
   end
   
+  def material=(material)
+    @material = material
+  end
+  
+  def material
+    @material
+  end
+  
   def condition=(condition)
     @condition = condition
-   end
+  end
    
-   def condition
+  def condition
      @condition
-   end
+  end
+  
 end
